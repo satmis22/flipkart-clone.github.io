@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montagu+Slab&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 58px;
+    background-color: #1d6ded;;
+    /* border: 2px solid red; */
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 29px;
+    padding: 0px 25px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: black;
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 29px;
+    border-radius: 2px;
+    margin: 0px 16px 0px 56px;
+    padding: 0px 12px;
+}
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+    background-color: rgb(255, 254, 254);
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 12px 0px;
+    overflow: hidden;
+}
+.slider img{
+    width: 80vw;
+    margin: auto;
+}
+.card{
+    /* background-color: #1d6ded; */
+    max-width: 91vw;
+    margin: auto;
+}
+.card h2{
+    font-family: 'Montagu Slab', serif;
+    padding: 0px 0px 0px 96px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+.card-item{
+    width: 156px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-direction solumn helped in forming flec boxes in colummns not rows :) */
+    margin: 0px 15px;
+}
+.card-item img{
+    height: 205px;
+}
+
+footer{
+    height: 12vh;
+    background-color: #1d6ded;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}

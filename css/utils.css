@@ -1,0 +1,31 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+/* All the properties in class flex-all-center is container's property */
+
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background-color: #1d6ded;
+    border-radius: 7px;
+    border: 2px solid white;
+    cursor: pointer;
+   
+    
+}
+.btn:hover{
+    font-weight: bolder;
+}
+
+.my-2{
+    margin: 26px 0px;
+}
+.my-1{
+    margin: 5px 0px;
+}
+
+.text-center{
+    text-align: center;
+}
